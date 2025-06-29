@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>iiii.webp</file>
+        <file>class.png</file>
+        <file>weekre.png</file>
+        <file>diary.png</file>
+        <file>quest.png</file>
+        <file>todayq.png</file>
+        <file>kebiao.png</file>
+        <file>llooggoo.png</file>
+        <file>addclass.png</file>
+        <file>ffinal.png</file>
+        <file>qing.png</file>
+        <file>tie.png</file>
+        <file>san.png</file>
+        <file>wan.png</file>
+        <file>yu.png</file>
+        <file>du.png</file>
+        <file>geng.png</file>
+        <file>han.png</file>
+        <file>mian.png</file>
+        <file>nan.png</file>
+        <file>note.png</file>
+        <file>delnote.png</file>
+        <file>redmark.png</file>
+        <file>WechatIMG44.jpg</file>
+        <file>school.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>innernote</class>
+ <widget class="QWidget" name="innernote">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>881</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>661</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="picturepushButton">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>30</y>
+     <width>91</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color:rgb(17,17,17);
+	
+	
+	font: 24pt &quot;Heiti SC&quot;;
+	
+	border-width: 1px;
+	border-color: rgb(139 ,0, 18); 
+	background-color: rgb(139, 0, 18);
+	
+
+color:white
+}
+QPushButton:hover { 
+background-color: rgb(167, 42, 43);}
+QPushButton:hovered { 
+background-color: rgb(116, 255, 63);}</string>
+   </property>
+   <property name="text">
+    <string>添加
+图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="savepushButton">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>240</y>
+     <width>91</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color:rgb(17,17,17);
+	
+	
+	font: 24pt &quot;Heiti SC&quot;;
+	
+	border-width: 1px;
+	border-color: rgb(139 ,0, 18); 
+	background-color: rgb(139, 0, 18);
+	
+
+color:white
+}
+QPushButton:hover { 
+background-color: rgb(167, 42, 43);}
+QPushButton:hovered { 
+background-color: rgb(116, 255, 63);}</string>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>701</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(139, 0, 18);
+border-radius: 15px;</string>
+   </property>
+  </widget>
+  <zorder>widget</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>picturepushButton</zorder>
+  <zorder>savepushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

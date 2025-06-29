@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>innertab</class>
+ <widget class="QWidget" name="innertab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>839</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>801</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTabBar::tab {
+    min-width:90px;
+    max-width:200px;
+    min-height:25px;
+    max-height:38px;
+    padding:0px;
+    background-color:rgb(139, 0, 18);
+    font:18px;
+border: 3px solid;
+    border-color:rgb(139, 0, 18);
+    color:rgb(255,255,255);
+}
+QTabBar::tab:selected {
+  font: 18px;
+    min-width:90px;
+    max-width:200px;
+    min-height:25px;
+    max-height:38px;
+color:rgb(255,255,255);
+  background-color: rgb(228, 52, 62);
+border: 3px solid;
+    border-color:rgb(228, 52, 62);
+}</string>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addpushButton">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>430</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	
+	
+	font: 20pt &quot;Heiti SC&quot;;
+	border-width: 3px;
+	border-radius: 10px;
+	border-color: rgb(255 ,255, 255); 
+	background-color: rgb(255, 255, 255);
+	
+
+
+}
+QPushButton:hover { 
+background-color: rgb(218, 221, 221);}
+QPushButton:hovered { 
+background-color: rgb(137, 139, 139)}
+
+</string>
+   </property>
+   <property name="text">
+    <string>添加一页</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deletepushButton">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>430</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	
+	
+	font: 20pt &quot;Heiti SC&quot;;
+	border-width: 3px;
+	border-radius: 10px;
+	border-color: rgb(255 ,255, 255); 
+	background-color: rgb(255, 255, 255);
+	
+
+
+}
+QPushButton:hover { 
+background-color: rgb(218, 221, 221);}
+QPushButton:hovered { 
+background-color: rgb(137, 139, 139)}
+
+</string>
+   </property>
+   <property name="text">
+    <string>删除当前页</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="texteditcheckBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>450</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Heiti SC&quot;;</string>
+   </property>
+   <property name="text">
+    <string>普通文本</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="markdowncheckBox">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>450</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt ;</string>
+   </property>
+   <property name="text">
+    <string>Markdown</string>
+   </property>
+   <property name="tristate">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
